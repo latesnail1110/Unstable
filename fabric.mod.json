@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "unstable_smp",
+  "version": "${version}",
+  "name": "Unstable SMP Ultimate",
+  "description": "Dark-Fantasy-Artefakte, Waffen und Faehigkeiten. Phase 1: Grundsystem.",
+  "authors": ["privat"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.unstable.smp.UnstableSmp"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
